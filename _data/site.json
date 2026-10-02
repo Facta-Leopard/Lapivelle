@@ -54,7 +54,7 @@
           ],
           [
             "Can I use it offline?",
-            "Stories and audio included in your installed app can be read or played offline. Opening this website, sending email or downloading an app update requires an internet connection."
+            "Stories and audio included in your installed app can be read or played offline. Opening this website, sending email or downloading an app update requires an internet connection. Loading other apps’ icons or opening App Store links also requires an internet connection."
           ],
           [
             "Why won’t a story play?",
@@ -82,13 +82,14 @@
           [
             "app",
             "Information in the app",
-            "Lapivelle does not require an account or include advertising, analytics SDKs, tracking SDKs or social features. It does not request microphone, camera, location or contacts access. The app does not ask children or other users to provide personal information.",
+            "Lapivelle does not require an account or include third-party advertising, analytics SDKs, tracking SDKs or social features. It does not request microphone, camera, location or contacts access. The app does not ask children or other users to provide personal information.",
             "Language, favorites, playback preferences and sleep-timer choices are stored locally. They are not sent to a developer-operated server. The app does not provide a cloud account or synchronize these preferences through our servers."
           ],
           [
             "content",
             "Stories and playback",
-            "Included story text, artwork and audio are used on the device. The app does not record your voice or send your reading or listening content to an AI service. Content may be provided through normal app updates."
+            "Included story text, artwork and audio are used on the device. The app does not record your voice or send your reading or listening content to an AI service. Content may be provided through normal app updates.",
+            "The list and descriptions in More apps by the developer are included in the app. Opening that screen may load icons from Apple’s image servers. These image requests do not include story content or your favorites. Selecting an App Store link opens Apple’s service."
           ],
           [
             "support",
@@ -161,7 +162,7 @@
           ],
           [
             "인터넷 없이 사용할 수 있나요?",
-            "설치된 앱에 포함된 이야기와 음성은 오프라인에서 읽거나 들을 수 있습니다. 이 홈페이지를 열거나 이메일을 보내고 앱 업데이트를 받으려면 인터넷 연결이 필요합니다."
+            "설치된 앱에 포함된 이야기와 음성은 오프라인에서 읽거나 들을 수 있습니다. 이 홈페이지를 열거나 이메일을 보내고 앱 업데이트를 받으려면 인터넷 연결이 필요합니다. 다른 앱의 아이콘을 불러오거나 App Store 링크를 여는 데에도 인터넷 연결이 필요합니다."
           ],
           [
             "이야기가 재생되지 않아요.",
@@ -189,13 +190,14 @@
           [
             "app",
             "앱에서 사용하는 정보",
-            "Lapivelle은 계정을 요구하지 않으며 광고, 분석 SDK, 추적 SDK, 소셜 기능을 포함하지 않습니다. 마이크, 카메라, 위치, 연락처 권한도 요청하지 않습니다. 아동을 포함한 이용자에게 개인정보 입력을 요구하지 않습니다.",
+            "Lapivelle은 계정을 요구하지 않으며 타사 광고, 분석 SDK, 추적 SDK, 소셜 기능을 포함하지 않습니다. 마이크, 카메라, 위치, 연락처 권한도 요청하지 않습니다. 아동을 포함한 이용자에게 개인정보 입력을 요구하지 않습니다.",
             "언어, 즐겨찾기, 재생 환경과 수면 타이머 선택은 기기에 저장됩니다. 개발자 운영 서버로 전송하지 않으며, 운영자의 서버를 통한 클라우드 계정이나 설정 동기화 기능도 제공하지 않습니다."
           ],
           [
             "content",
             "이야기와 재생",
-            "앱에 포함된 이야기 글, 삽화와 음성은 기기에서 사용됩니다. 사용자의 목소리를 녹음하거나 읽기·청취 내용을 AI 서비스로 보내지 않습니다. 콘텐츠는 일반적인 앱 업데이트로 제공될 수 있습니다."
+            "앱에 포함된 이야기 글, 삽화와 음성은 기기에서 사용됩니다. 사용자의 목소리를 녹음하거나 읽기·청취 내용을 AI 서비스로 보내지 않습니다. 콘텐츠는 일반적인 앱 업데이트로 제공될 수 있습니다.",
+            "‘제작자의 다른 앱’ 목록과 설명은 앱에 포함되어 있습니다. 이 화면을 열면 아이콘을 Apple 이미지 서버에서 불러올 수 있습니다. 이미지 요청에는 이야기 내용이나 즐겨찾기가 포함되지 않습니다. App Store 링크를 선택하면 Apple 서비스로 이동합니다."
           ],
           [
             "support",
@@ -268,7 +270,7 @@
           ],
           [
             "L’app fonctionne-t-elle hors ligne ?",
-            "Les histoires et les fichiers audio inclus dans l’app installée peuvent être lus ou écoutés hors ligne. Une connexion est nécessaire pour ouvrir ce site, envoyer un e-mail ou télécharger une mise à jour."
+            "Les histoires et les fichiers audio inclus dans l’app installée peuvent être lus ou écoutés hors ligne. Une connexion est nécessaire pour ouvrir ce site, envoyer un e-mail ou télécharger une mise à jour. Une connexion est également nécessaire pour charger les icônes des autres apps ou ouvrir les liens App Store."
           ],
           [
             "Pourquoi une histoire ne se lance-t-elle pas ?",
@@ -296,13 +298,14 @@
           [
             "app",
             "Informations dans l’app",
-            "Lapivelle ne demande pas de compte et ne contient ni publicité, ni SDK d’analyse ou de suivi, ni fonction sociale. Elle ne demande aucun accès au microphone, à la caméra, à la localisation ou aux contacts. Elle ne demande pas aux enfants ou aux autres utilisateurs de fournir des données personnelles.",
+            "Lapivelle ne demande pas de compte et ne contient ni publicité tierce, ni SDK d’analyse ou de suivi, ni fonction sociale. Elle ne demande aucun accès au microphone, à la caméra, à la localisation ou aux contacts. Elle ne demande pas aux enfants ou aux autres utilisateurs de fournir des données personnelles.",
             "La langue, les favoris, les préférences de lecture et de minuterie sont conservés localement. Ils ne sont pas envoyés à un serveur du développeur. Nous ne proposons ni compte cloud ni synchronisation de ces préférences sur nos serveurs."
           ],
           [
             "content",
             "Histoires et lecture",
-            "Les textes, illustrations et fichiers audio inclus sont utilisés sur l’appareil. L’app n’enregistre pas votre voix et n’envoie pas vos contenus lus ou écoutés à un service d’IA. Le contenu peut être fourni par les mises à jour habituelles de l’app."
+            "Les textes, illustrations et fichiers audio inclus sont utilisés sur l’appareil. L’app n’enregistre pas votre voix et n’envoie pas vos contenus lus ou écoutés à un service d’IA. Le contenu peut être fourni par les mises à jour habituelles de l’app.",
+            "La liste et les descriptions des autres apps du développeur sont incluses dans l’app. L’ouverture de cet écran peut charger les icônes depuis les serveurs d’images d’Apple. Ces requêtes ne contiennent ni le texte des histoires ni vos favoris. Un lien App Store ouvre le service d’Apple."
           ],
           [
             "support",
@@ -375,7 +378,7 @@
           ],
           [
             "可以离线使用吗？",
-            "已安装应用中包含的故事和音频可以离线阅读或播放。打开本网站、发送邮件或下载应用更新需要联网。"
+            "已安装应用中包含的故事和音频可以离线阅读或播放。打开本网站、发送邮件或下载应用更新需要联网。加载其他应用的图标或打开 App Store 链接也需要网络连接。"
           ],
           [
             "为什么故事无法播放？",
@@ -403,13 +406,14 @@
           [
             "app",
             "应用中的信息",
-            "Lapivelle 不要求账户，不包含广告、分析 SDK、追踪 SDK 或社交功能，也不请求麦克风、相机、位置或联系人权限。应用不会要求儿童或其他用户填写个人信息。",
+            "Lapivelle 不要求账户，不包含第三方广告、分析 SDK、追踪 SDK 或社交功能，也不请求麦克风、相机、位置或联系人权限。应用不会要求儿童或其他用户填写个人信息。",
             "语言、收藏、播放偏好和睡眠定时器选项保存在设备本地，不会发送到开发者运营的服务器。我们不提供云端账户，也不通过自己的服务器同步这些设置。"
           ],
           [
             "content",
             "故事与播放",
-            "应用包含的文字、插画和音频在设备上使用。应用不录制你的声音，也不把阅读或收听内容发送到 AI 服务。内容可能通过常规应用更新提供。"
+            "应用包含的文字、插画和音频在设备上使用。应用不录制你的声音，也不把阅读或收听内容发送到 AI 服务。内容可能通过常规应用更新提供。",
+            "“开发者的其他应用”的列表和说明包含在应用内。打开该页面时，可能会从 Apple 图片服务器加载图标。图片请求不包含故事内容或你的收藏。选择 App Store 链接后，会打开 Apple 的服务。"
           ],
           [
             "support",
@@ -482,7 +486,7 @@
           ],
           [
             "可以離線使用嗎？",
-            "已安裝 App 中包含的故事與音訊，可以離線閱讀或播放。開啟本網站、寄送電子郵件或下載 App 更新時，需要網路連線。"
+            "已安裝 App 中包含的故事與音訊，可以離線閱讀或播放。開啟本網站、寄送電子郵件或下載 App 更新時，需要網路連線。載入其他 App 的圖示或開啟 App Store 連結也需要網路連線。"
           ],
           [
             "為什麼故事無法播放？",
@@ -510,13 +514,14 @@
           [
             "app",
             "App 中的資訊",
-            "Lapivelle 不要求帳號，不含廣告、分析 SDK、追蹤 SDK 或社交功能，也不要求麥克風、相機、位置或聯絡人權限。App 不會要求兒童或其他使用者輸入個人資料。",
+            "Lapivelle 不要求帳號，不含第三方廣告、分析 SDK、追蹤 SDK 或社交功能，也不要求麥克風、相機、位置或聯絡人權限。App 不會要求兒童或其他使用者輸入個人資料。",
             "語言、收藏、播放偏好與睡眠計時器選項儲存在裝置本機，不會傳送到開發者營運的伺服器。我們不提供雲端帳號，也不透過自己的伺服器同步這些設定。"
           ],
           [
             "content",
             "故事與播放",
-            "App 內含的文字、插畫與音訊會在裝置上使用。App 不會錄下你的聲音，也不會將閱讀或聆聽內容傳送至 AI 服務。內容可能透過一般 App 更新提供。"
+            "App 內含的文字、插畫與音訊會在裝置上使用。App 不會錄下你的聲音，也不會將閱讀或聆聽內容傳送至 AI 服務。內容可能透過一般 App 更新提供。",
+            "「開發者的其他 App」的清單和說明包含在 App 內。開啟該頁面時，可能會從 Apple 圖片伺服器載入圖示。圖片請求不包含故事內容或你的收藏。選取 App Store 連結後，會開啟 Apple 的服務。"
           ],
           [
             "support",
@@ -589,7 +594,7 @@
           ],
           [
             "オフラインで使えますか？",
-            "インストール済みのアプリに含まれるお話と音声は、オフラインで読んだり聴いたりできます。このサイトの閲覧、メール送信、アプリの更新にはインターネット接続が必要です。"
+            "インストール済みのアプリに含まれるお話と音声は、オフラインで読んだり聴いたりできます。このサイトの閲覧、メール送信、アプリの更新にはインターネット接続が必要です。ほかのアプリのアイコンの読み込みやApp Storeのリンクを開く際にも、インターネット接続が必要です。"
           ],
           [
             "お話を再生できません。",
@@ -617,13 +622,14 @@
           [
             "app",
             "アプリ内の情報",
-            "Lapivelleはアカウントを要求せず、広告、分析SDK、追跡SDK、交流機能を含みません。マイク、カメラ、位置情報、連絡先へのアクセスも要求しません。お子さまを含め、利用者に個人情報の入力を求めません。",
+            "Lapivelleはアカウントを要求せず、第三者の広告、分析SDK、追跡SDK、交流機能を含みません。マイク、カメラ、位置情報、連絡先へのアクセスも要求しません。お子さまを含め、利用者に個人情報の入力を求めません。",
             "言語、お気に入り、再生やスリープタイマーの設定は端末内に保存されます。開発者が運営するサーバーへは送信しません。クラウドアカウントや、私たちのサーバーを使った設定の同期も提供していません。"
           ],
           [
             "content",
             "お話と再生",
-            "収録された文章、イラスト、音声は端末内で使用されます。声を録音したり、読んだ内容や聴いた内容をAIサービスに送ったりする機能はありません。コンテンツは通常のアプリ更新で提供される場合があります。"
+            "収録された文章、イラスト、音声は端末内で使用されます。声を録音したり、読んだ内容や聴いた内容をAIサービスに送ったりする機能はありません。コンテンツは通常のアプリ更新で提供される場合があります。",
+            "開発者のほかのアプリの一覧と説明は、アプリ内に含まれています。この画面を開くと、Appleの画像サーバーからアイコンを読み込む場合があります。この通信にお話の本文やお気に入りは含まれません。App Storeのリンクを選ぶと、Appleのサービスが開きます。"
           ],
           [
             "support",
@@ -696,7 +702,7 @@
           ],
           [
             "Funktioniert die App offline?",
-            "Geschichten und Audiodateien, die in der installierten App enthalten sind, lassen sich offline lesen oder abspielen. Für diese Website, E-Mails und App-Updates ist eine Internetverbindung nötig."
+            "Geschichten und Audiodateien, die in der installierten App enthalten sind, lassen sich offline lesen oder abspielen. Für diese Website, E-Mails und App-Updates ist eine Internetverbindung nötig. Auch das Laden der Symbole anderer Apps und das Öffnen von App-Store-Links benötigen eine Internetverbindung."
           ],
           [
             "Warum spielt eine Geschichte nicht ab?",
@@ -724,13 +730,14 @@
           [
             "app",
             "Informationen in der App",
-            "Lapivelle verlangt kein Konto und enthält keine Werbung, Analyse-SDKs, Tracking-SDKs oder sozialen Funktionen. Die App fordert keinen Zugriff auf Mikrofon, Kamera, Standort oder Kontakte. Sie bittet weder Kinder noch andere Nutzer um personenbezogene Angaben.",
+            "Lapivelle verlangt kein Konto und enthält keine Werbung Dritter, Analyse-SDKs, Tracking-SDKs oder sozialen Funktionen. Die App fordert keinen Zugriff auf Mikrofon, Kamera, Standort oder Kontakte. Sie bittet weder Kinder noch andere Nutzer um personenbezogene Angaben.",
             "Sprache, Favoriten, Wiedergabe- und Timereinstellungen bleiben lokal auf dem Gerät. Sie werden nicht an einen vom Entwickler betriebenen Server gesendet. Es gibt kein Cloud-Konto und keine Synchronisierung dieser Einstellungen über unsere Server."
           ],
           [
             "content",
             "Geschichten und Wiedergabe",
-            "Enthaltene Texte, Bilder und Audiodateien werden auf dem Gerät verwendet. Die App nimmt deine Stimme nicht auf und sendet gelesene oder gehörte Inhalte nicht an einen KI-Dienst. Inhalte können über normale App-Updates bereitgestellt werden."
+            "Enthaltene Texte, Bilder und Audiodateien werden auf dem Gerät verwendet. Die App nimmt deine Stimme nicht auf und sendet gelesene oder gehörte Inhalte nicht an einen KI-Dienst. Inhalte können über normale App-Updates bereitgestellt werden.",
+            "Die Liste und Beschreibungen der weiteren Apps des Entwicklers sind in der App enthalten. Beim Öffnen dieser Ansicht können Symbole von Apples Bildservern geladen werden. Diese Bildanfragen enthalten weder Geschichten noch deine Favoriten. Ein App-Store-Link öffnet Apples Dienst."
           ],
           [
             "support",
@@ -803,7 +810,7 @@
           ],
           [
             "¿Puedo usarla sin conexión?",
-            "Los cuentos y archivos de audio incluidos en la app instalada se pueden leer o reproducir sin conexión. Para visitar este sitio, enviar correo o descargar una actualización necesitas internet."
+            "Los cuentos y archivos de audio incluidos en la app instalada se pueden leer o reproducir sin conexión. Para visitar este sitio, enviar correo o descargar una actualización necesitas internet. También hace falta conexión para cargar los iconos de otras apps o abrir enlaces al App Store."
           ],
           [
             "¿Por qué no se reproduce un cuento?",
@@ -831,13 +838,14 @@
           [
             "app",
             "Información en la app",
-            "Lapivelle no exige una cuenta ni incluye publicidad, SDK de análisis, SDK de seguimiento o funciones sociales. No solicita acceso al micrófono, la cámara, la ubicación ni los contactos. No pide información personal a menores ni a otros usuarios.",
+            "Lapivelle no exige una cuenta ni incluye publicidad de terceros, SDK de análisis, SDK de seguimiento o funciones sociales. No solicita acceso al micrófono, la cámara, la ubicación ni los contactos. No pide información personal a menores ni a otros usuarios.",
             "El idioma, los favoritos y las preferencias de reproducción y del temporizador se guardan en el dispositivo. No se envían a un servidor del desarrollador. No ofrecemos una cuenta en la nube ni sincronizamos estas preferencias mediante nuestros servidores."
           ],
           [
             "content",
             "Cuentos y reproducción",
-            "Los textos, ilustraciones y audios incluidos se utilizan en el dispositivo. La app no graba tu voz ni envía lo que lees o escuchas a un servicio de IA. El contenido puede llegar mediante las actualizaciones habituales de la app."
+            "Los textos, ilustraciones y audios incluidos se utilizan en el dispositivo. La app no graba tu voz ni envía lo que lees o escuchas a un servicio de IA. El contenido puede llegar mediante las actualizaciones habituales de la app.",
+            "La lista y las descripciones de las otras apps del desarrollador están incluidas en la app. Al abrir esa pantalla, los iconos pueden cargarse desde los servidores de imágenes de Apple. Estas solicitudes no incluyen los cuentos ni tus favoritos. Al elegir un enlace al App Store, se abre el servicio de Apple."
           ],
           [
             "support",
