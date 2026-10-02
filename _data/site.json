@@ -1,0 +1,874 @@
+{
+  "baseURL": "https://facta-leopard.github.io/Lapivelle/",
+  "operator": "Facta Leopard",
+  "email": "shteosis@gmail.com",
+  "updated": "2026-10-03",
+  "languages": {
+    "ko": "한국어",
+    "en": "English",
+    "fr": "Français",
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文",
+    "ja": "日本語",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "locales": {
+    "en": {
+      "nav": {
+        "home": "Home",
+        "support": "Support",
+        "privacy": "Privacy"
+      },
+      "language": "Language",
+      "skip": "Skip to content",
+      "updated": "Updated October 3, 2026",
+      "contents": "On this page",
+      "back": "Back to top",
+      "emailAction": "Email support",
+      "publicAction": "Report a bug publicly",
+      "providerLabel": "GitHub’s privacy statement",
+      "appleLabel": "Apple’s privacy policy",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "Stories before bedtime.",
+        "intro": "Lapivelle offers gentle stories to listen to before bed.",
+        "status": "Preparing for release",
+        "supportText": "Help with the app and ways to contact us.",
+        "privacyText": "How information is handled in the app and on this website.",
+        "imageAlt": "Eloise and Lapivelle gently help a small star in a moonlit garden."
+      },
+      "support": {
+        "title": "Help & support",
+        "intro": "Find answers about Lapivelle, or contact us by email.",
+        "contactTitle": "Email us",
+        "contactText": "For questions about the app or your privacy, email us.",
+        "publicText": "GitHub Issues is available for public bug reports. Posts are visible to others, so use email for personal or privacy-related requests.",
+        "detailsTitle": "What helps us help you",
+        "detailsText": "Include the app version, device model, iOS or iPadOS version, selected language, story title, and what happened. Screenshots are optional. Please leave out passwords, payment details and children’s personal information.",
+        "faqTitle": "Common questions",
+        "faqs": [
+          [
+            "Do I need an account?",
+            "No. Lapivelle has no account or login requirement. Your favorites and preferences are saved locally on your device."
+          ],
+          [
+            "Can I use it offline?",
+            "Stories and audio included in your installed app can be read or played offline. Opening this website, sending email or downloading an app update requires an internet connection."
+          ],
+          [
+            "Why won’t a story play?",
+            "Check media volume, the selected audio output or Bluetooth connection, and the sleep timer. If a story says narration is being prepared, its audio is not included yet; you can read the available text. If the problem continues, tell us the language and story title."
+          ],
+          [
+            "How do I change the language?",
+            "Open Settings, then App and story language. Chinese Simplified and Traditional are separate choices. Switching languages stops the current playback so speech and subtitles do not get mixed."
+          ],
+          [
+            "How do I remove my local data?",
+            "Delete the app to remove its local preferences and favorites. Offloading the app may keep its data. Manage any device or cloud backups separately in Apple’s settings."
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "Privacy policy",
+        "summary": "How information is handled in the Lapivelle app, on this website and when you contact us.",
+        "sections": [
+          [
+            "scope",
+            "What this policy covers",
+            "This policy covers the Lapivelle app, this website and support provided by Facta Leopard. Lapivelle is intended for adults to operate during quiet evening routines."
+          ],
+          [
+            "app",
+            "Information in the app",
+            "Lapivelle does not require an account or include advertising, analytics SDKs, tracking SDKs or social features. It does not request microphone, camera, location or contacts access. The app does not ask children or other users to provide personal information.",
+            "Language, favorites, playback preferences and sleep-timer choices are stored locally. They are not sent to a developer-operated server. The app does not provide a cloud account or synchronize these preferences through our servers."
+          ],
+          [
+            "content",
+            "Stories and playback",
+            "Included story text, artwork and audio are used on the device. The app does not record your voice or send your reading or listening content to an AI service. Content may be provided through normal app updates."
+          ],
+          [
+            "support",
+            "When you contact us",
+            "If you email support, we receive your email address, message and any information you choose to include. We use this to answer your request, investigate an issue or handle a privacy question. Email providers process delivery and storage.",
+            "A GitHub issue is a public post, not a private support inbox. Do not include personal or sensitive information in an issue. Please use email for privacy requests."
+          ],
+          [
+            "website",
+            "Visiting this website",
+            "This site is hosted on GitHub Pages. GitHub records visitors’ IP addresses for security purposes. Its own privacy statement explains that processing.",
+            "We do not add advertising, analytics, tracking cookies, third-party embeds or remote fonts to this website. Language selection works through page links; we do not store a visitor profile."
+          ],
+          [
+            "sharing",
+            "Sharing and external services",
+            "We do not sell personal information or use app preferences for advertising. Apple operates App Store distribution and system backup services under its own policies. GitHub and email providers handle their services under their own terms; following an external link takes you to that provider."
+          ],
+          [
+            "retention",
+            "Retention and your choices",
+            "Local app data remains until you change it or delete the app. Device or cloud backups may retain copies according to your Apple settings; we do not receive those backups.",
+            "Support correspondence is kept only as long as needed to handle the request and meet applicable recordkeeping duties. Email us to ask about, correct or request deletion of information you sent. We cannot access data that exists only on your device. GitHub controls retention of its hosting security records."
+          ],
+          [
+            "contact",
+            "Questions and updates",
+            "Contact us at {email} with a privacy question, including if you believe a child has sent personal information through a support channel. We will update this page and its date when our practices change."
+          ]
+        ]
+      }
+    },
+    "ko": {
+      "nav": {
+        "home": "홈",
+        "support": "지원",
+        "privacy": "개인정보처리방침"
+      },
+      "language": "언어",
+      "skip": "본문으로 이동",
+      "updated": "2026년 10월 3일 업데이트",
+      "contents": "이 페이지의 내용",
+      "back": "맨 위로",
+      "emailAction": "이메일로 문의하기",
+      "publicAction": "공개 버그 제보",
+      "providerLabel": "GitHub 개인정보처리방침",
+      "appleLabel": "Apple 개인정보 처리방침",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "잠들기 전,\n이야기 한 편.",
+        "intro": "Lapivelle은 다정한 잠자리 이야기로 조용한 저녁 시간을 함께합니다.",
+        "status": "출시 준비 중",
+        "supportText": "이용 방법과 문의처를 안내합니다.",
+        "privacyText": "앱과 홈페이지의 개인정보 처리 안내입니다.",
+        "imageAlt": "달빛 정원에서 엘로이즈와 라피벨이 작은 별을 다정하게 돕고 있습니다."
+      },
+      "support": {
+        "title": "도움말 및 문의",
+        "intro": "앱 이용 중 궁금한 점이나 문제가 있으면 아래 안내를 확인해 주세요.",
+        "contactTitle": "이메일 문의",
+        "contactText": "해결되지 않는 문제나 개인정보 관련 문의는 이메일로 보내 주세요.",
+        "publicText": "일반적인 버그는 GitHub Issues에 공개적으로 제보할 수 있습니다. 다른 사람도 내용을 볼 수 있으므로, 개인적인 내용이나 개인정보 문의는 이메일을 이용해 주세요.",
+        "detailsTitle": "함께 알려 주시면 좋은 정보",
+        "detailsText": "앱 버전, 기기 모델, iOS 또는 iPadOS 버전, 선택한 언어, 이야기 제목과 발생한 문제를 알려 주세요. 화면 캡처는 선택 사항입니다. 비밀번호, 결제 정보, 아동의 개인정보는 포함하지 말아 주세요.",
+        "faqTitle": "자주 묻는 질문",
+        "faqs": [
+          [
+            "계정이 필요한가요?",
+            "아니요. Lapivelle에는 계정이나 로그인 절차가 없습니다. 즐겨찾기와 설정은 기기에 저장됩니다."
+          ],
+          [
+            "인터넷 없이 사용할 수 있나요?",
+            "설치된 앱에 포함된 이야기와 음성은 오프라인에서 읽거나 들을 수 있습니다. 이 홈페이지를 열거나 이메일을 보내고 앱 업데이트를 받으려면 인터넷 연결이 필요합니다."
+          ],
+          [
+            "이야기가 재생되지 않아요.",
+            "미디어 음량, 소리가 나오는 기기나 Bluetooth 연결, 수면 타이머를 확인해 주세요. ‘낭독 준비 중’으로 표시되면 아직 음성이 포함되지 않은 이야기이며, 준비된 대본을 읽을 수 있습니다. 문제가 계속되면 언어와 이야기 제목을 알려 주세요."
+          ],
+          [
+            "언어는 어떻게 바꾸나요?",
+            "설정의 ‘앱 및 이야기 언어’에서 바꿀 수 있습니다. 중국어 간체와 번체는 별도로 선택합니다. 음성과 자막의 언어가 섞이지 않도록 언어를 바꾸면 현재 재생이 정지됩니다."
+          ],
+          [
+            "기기에 저장된 정보를 지우려면 어떻게 하나요?",
+            "앱을 삭제하면 기기에 저장된 설정과 즐겨찾기가 삭제됩니다. ‘앱 정리하기’는 데이터를 남길 수 있습니다. 기기나 클라우드 백업은 Apple 설정에서 별도로 관리해 주세요."
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "개인정보처리방침",
+        "summary": "Lapivelle 앱과 홈페이지, 문의 과정에서 처리하는 정보를 안내합니다.",
+        "sections": [
+          [
+            "scope",
+            "적용 범위",
+            "이 방침은 Facta Leopard가 제공하는 Lapivelle 앱, 이 홈페이지와 지원 업무에 적용됩니다. Lapivelle은 성인이 조작하는 조용한 저녁 루틴을 위한 앱입니다."
+          ],
+          [
+            "app",
+            "앱에서 사용하는 정보",
+            "Lapivelle은 계정을 요구하지 않으며 광고, 분석 SDK, 추적 SDK, 소셜 기능을 포함하지 않습니다. 마이크, 카메라, 위치, 연락처 권한도 요청하지 않습니다. 아동을 포함한 이용자에게 개인정보 입력을 요구하지 않습니다.",
+            "언어, 즐겨찾기, 재생 환경과 수면 타이머 선택은 기기에 저장됩니다. 개발자 운영 서버로 전송하지 않으며, 운영자의 서버를 통한 클라우드 계정이나 설정 동기화 기능도 제공하지 않습니다."
+          ],
+          [
+            "content",
+            "이야기와 재생",
+            "앱에 포함된 이야기 글, 삽화와 음성은 기기에서 사용됩니다. 사용자의 목소리를 녹음하거나 읽기·청취 내용을 AI 서비스로 보내지 않습니다. 콘텐츠는 일반적인 앱 업데이트로 제공될 수 있습니다."
+          ],
+          [
+            "support",
+            "문의할 때 제공하는 정보",
+            "이메일로 문의하면 발신자의 이메일 주소, 메시지와 직접 첨부한 정보를 받게 됩니다. 문의 답변, 문제 확인 또는 개인정보 요청 처리를 위해 사용합니다. 이메일 서비스 제공자는 메일의 전달과 보관을 처리합니다.",
+            "GitHub 이슈는 비공개 문의함이 아닌 공개 게시물입니다. 개인정보나 민감한 내용을 이슈에 적지 말고, 개인정보 관련 요청은 이메일로 보내 주세요."
+          ],
+          [
+            "website",
+            "홈페이지 방문",
+            "이 홈페이지는 GitHub Pages에서 호스팅됩니다. GitHub는 보안 목적으로 방문자의 IP 주소를 기록합니다. 관련 처리는 GitHub의 개인정보처리방침에 설명되어 있습니다.",
+            "이 홈페이지에 광고, 방문 분석, 추적 쿠키, 외부 임베드나 원격 폰트를 추가하지 않습니다. 언어 선택은 페이지 링크로 동작하며 방문자 프로필을 저장하지 않습니다."
+          ],
+          [
+            "sharing",
+            "공유와 외부 서비스",
+            "개인정보를 판매하거나 앱의 설정 정보를 광고에 사용하지 않습니다. App Store 배포와 시스템 백업은 Apple의 정책에 따라 처리됩니다. GitHub와 이메일 제공자는 각자의 약관에 따라 서비스를 운영하며, 외부 링크를 열면 해당 제공자의 서비스로 이동합니다."
+          ],
+          [
+            "retention",
+            "보관과 이용자의 선택",
+            "기기 내 앱 데이터는 설정을 바꾸거나 앱을 삭제할 때까지 보관됩니다. Apple 설정에 따라 기기 또는 클라우드 백업에 사본이 남을 수 있으며, 운영자는 그 백업을 받지 않습니다.",
+            "지원 이메일은 문의 처리와 적용되는 기록 보관 의무를 위해 필요한 기간만 보관합니다. 직접 보낸 정보의 확인, 정정 또는 삭제를 요청하려면 이메일로 문의해 주세요. 기기에만 있는 정보에는 운영자가 접근할 수 없습니다. 호스팅 보안 기록의 보관은 GitHub가 관리합니다."
+          ],
+          [
+            "contact",
+            "문의와 변경",
+            "개인정보 관련 문의는 {email}로 보내 주세요. 아동이 지원 채널로 개인정보를 보냈다고 생각되는 경우에도 연락할 수 있습니다. 처리 방식이 바뀌면 이 페이지와 업데이트 날짜를 수정합니다."
+          ]
+        ]
+      }
+    },
+    "fr": {
+      "nav": {
+        "home": "Accueil",
+        "support": "Assistance",
+        "privacy": "Confidentialité"
+      },
+      "language": "Langue",
+      "skip": "Aller au contenu",
+      "updated": "Mise à jour le 3 octobre 2026",
+      "contents": "Sur cette page",
+      "back": "Retour en haut",
+      "emailAction": "Écrire à l’assistance",
+      "publicAction": "Signaler un bug publiquement",
+      "providerLabel": "Politique de confidentialité de GitHub",
+      "appleLabel": "Politique de confidentialité d’Apple",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "Des histoires\navant de dormir.",
+        "intro": "Lapivelle propose des histoires douces à écouter avant de dormir.",
+        "status": "Sortie en préparation",
+        "supportText": "Des réponses sur l’app et nos coordonnées.",
+        "privacyText": "Le traitement des informations dans l’app et sur ce site.",
+        "imageAlt": "Dans un jardin éclairé par la lune, Éloïse et Lapivelle aident doucement une petite étoile."
+      },
+      "support": {
+        "title": "Aide et contact",
+        "intro": "Consultez les réponses sur Lapivelle ou contactez-nous par e-mail.",
+        "contactTitle": "Nous écrire",
+        "contactText": "Pour une question sur l’app ou sur la confidentialité, écrivez-nous.",
+        "publicText": "GitHub Issues permet de signaler des bugs publiquement. Ces publications sont visibles par d’autres personnes. Utilisez l’e-mail pour toute demande personnelle ou liée à la confidentialité.",
+        "detailsTitle": "Les informations utiles",
+        "detailsText": "Indiquez la version de l’app, le modèle de l’appareil, la version d’iOS ou d’iPadOS, la langue choisie, le titre de l’histoire et le problème rencontré. Les captures d’écran sont facultatives. N’incluez ni mot de passe, ni coordonnées bancaires, ni données personnelles d’enfants.",
+        "faqTitle": "Questions fréquentes",
+        "faqs": [
+          [
+            "Faut-il créer un compte ?",
+            "Non. Lapivelle ne nécessite ni compte ni connexion. Les favoris et les préférences sont enregistrés sur votre appareil."
+          ],
+          [
+            "L’app fonctionne-t-elle hors ligne ?",
+            "Les histoires et les fichiers audio inclus dans l’app installée peuvent être lus ou écoutés hors ligne. Une connexion est nécessaire pour ouvrir ce site, envoyer un e-mail ou télécharger une mise à jour."
+          ],
+          [
+            "Pourquoi une histoire ne se lance-t-elle pas ?",
+            "Vérifiez le volume multimédia, la sortie audio ou la connexion Bluetooth, ainsi que la minuterie. Si la narration est indiquée comme étant en préparation, son audio n’est pas encore inclus ; le texte disponible peut être lu. Si le problème persiste, indiquez-nous la langue et le titre."
+          ],
+          [
+            "Comment changer de langue ?",
+            "Ouvrez Réglages, puis Langue de l’app et des histoires. Le chinois simplifié et le chinois traditionnel sont deux choix distincts. Le changement de langue arrête la lecture pour éviter de mélanger la voix et les sous-titres."
+          ],
+          [
+            "Comment supprimer les données locales ?",
+            "La suppression de l’app efface ses préférences et favoris locaux. La fonction Décharger l’app peut conserver les données. Gérez séparément les sauvegardes de l’appareil ou du cloud dans les réglages Apple."
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "Politique de confidentialité",
+        "summary": "Comment les informations sont traitées dans l’app Lapivelle, sur ce site et lorsque vous nous contactez.",
+        "sections": [
+          [
+            "scope",
+            "Champ d’application",
+            "Cette politique couvre l’app Lapivelle, ce site et l’assistance fournis par Facta Leopard. Lapivelle est destinée à être utilisée par des adultes pendant des rituels du soir tranquilles."
+          ],
+          [
+            "app",
+            "Informations dans l’app",
+            "Lapivelle ne demande pas de compte et ne contient ni publicité, ni SDK d’analyse ou de suivi, ni fonction sociale. Elle ne demande aucun accès au microphone, à la caméra, à la localisation ou aux contacts. Elle ne demande pas aux enfants ou aux autres utilisateurs de fournir des données personnelles.",
+            "La langue, les favoris, les préférences de lecture et de minuterie sont conservés localement. Ils ne sont pas envoyés à un serveur du développeur. Nous ne proposons ni compte cloud ni synchronisation de ces préférences sur nos serveurs."
+          ],
+          [
+            "content",
+            "Histoires et lecture",
+            "Les textes, illustrations et fichiers audio inclus sont utilisés sur l’appareil. L’app n’enregistre pas votre voix et n’envoie pas vos contenus lus ou écoutés à un service d’IA. Le contenu peut être fourni par les mises à jour habituelles de l’app."
+          ],
+          [
+            "support",
+            "Lorsque vous nous contactez",
+            "Un e-mail d’assistance nous transmet votre adresse, votre message et les informations que vous choisissez de joindre. Nous les utilisons pour répondre, examiner un problème ou traiter une demande de confidentialité. Les fournisseurs de messagerie assurent l’envoi et le stockage.",
+            "Une issue GitHub est une publication publique, pas une boîte de réception privée. N’y publiez pas de données personnelles ou sensibles. Utilisez l’e-mail pour les demandes de confidentialité."
+          ],
+          [
+            "website",
+            "Visites du site",
+            "Ce site est hébergé sur GitHub Pages. GitHub enregistre l’adresse IP des visiteurs à des fins de sécurité. Sa politique de confidentialité décrit ce traitement.",
+            "Nous n’ajoutons à ce site ni publicité, ni analyse d’audience, ni cookies de suivi, ni contenus tiers intégrés, ni polices distantes. Le choix de langue repose sur des liens ; nous ne conservons pas de profil de visiteur."
+          ],
+          [
+            "sharing",
+            "Partage et services externes",
+            "Nous ne vendons pas de données personnelles et n’utilisons pas les préférences de l’app à des fins publicitaires. Apple gère la distribution App Store et les sauvegardes système selon ses propres politiques. GitHub et les services de messagerie appliquent leurs propres conditions ; un lien externe mène au service concerné."
+          ],
+          [
+            "retention",
+            "Conservation et choix",
+            "Les données locales restent présentes jusqu’à leur modification ou à la suppression de l’app. Les sauvegardes de l’appareil ou du cloud peuvent en conserver une copie selon vos réglages Apple ; nous ne recevons pas ces sauvegardes.",
+            "Les échanges d’assistance sont conservés uniquement le temps nécessaire à la demande et aux obligations de conservation applicables. Écrivez-nous pour consulter, corriger ou demander la suppression des informations envoyées. Nous n’avons pas accès aux données présentes uniquement sur votre appareil. GitHub détermine la conservation de ses journaux de sécurité."
+          ],
+          [
+            "contact",
+            "Questions et mises à jour",
+            "Pour toute question de confidentialité, écrivez à {email}, notamment si vous pensez qu’un enfant a envoyé des données personnelles par un canal d’assistance. Nous mettrons à jour cette page et sa date lorsque nos pratiques changeront."
+          ]
+        ]
+      }
+    },
+    "zh-Hans": {
+      "nav": {
+        "home": "首页",
+        "support": "支持",
+        "privacy": "隐私政策"
+      },
+      "language": "语言",
+      "skip": "跳转到正文",
+      "updated": "更新于 2026 年 10 月 3 日",
+      "contents": "本页内容",
+      "back": "返回顶部",
+      "emailAction": "发送支持邮件",
+      "publicAction": "公开报告问题",
+      "providerLabel": "GitHub 隐私声明",
+      "appleLabel": "Apple 隐私政策",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "睡前，\n听一个故事。",
+        "intro": "Lapivelle 带来适合睡前聆听的温柔故事。",
+        "status": "准备发布中",
+        "supportText": "查看使用帮助和联系方式。",
+        "privacyText": "了解应用和网站如何处理信息。",
+        "imageAlt": "埃洛伊丝和拉皮维尔在月光花园里，温柔地帮助一颗小星星。"
+      },
+      "support": {
+        "title": "帮助与联系",
+        "intro": "可以先查看 Lapivelle 的使用说明，也可以通过邮件联系我们。",
+        "contactTitle": "邮件联系",
+        "contactText": "应用使用或隐私方面的问题，请通过电子邮件联系我们。",
+        "publicText": "普通问题也可以通过 GitHub Issues 公开报告。其他人能够看到帖子，因此涉及个人信息或隐私的请求请使用电子邮件。",
+        "detailsTitle": "哪些信息有助于解决问题",
+        "detailsText": "请说明应用版本、设备型号、iOS 或 iPadOS 版本、所选语言、故事标题，以及发生了什么。截图为可选项。请不要提供密码、支付信息或儿童的个人信息。",
+        "faqTitle": "常见问题",
+        "faqs": [
+          [
+            "需要注册账户吗？",
+            "不需要。Lapivelle 无需账户或登录。收藏和偏好设置保存在你的设备上。"
+          ],
+          [
+            "可以离线使用吗？",
+            "已安装应用中包含的故事和音频可以离线阅读或播放。打开本网站、发送邮件或下载应用更新需要联网。"
+          ],
+          [
+            "为什么故事无法播放？",
+            "请检查媒体音量、音频输出设备或 Bluetooth 连接，以及睡眠定时器。如果显示朗读正在准备中，说明尚未包含音频，你可以先阅读已有正文。如果问题持续，请告诉我们所选语言和故事标题。"
+          ],
+          [
+            "如何更改语言？",
+            "打开设置中的“应用和故事语言”。简体中文和繁体中文可以分别选择。切换语言会停止当前播放，避免语音和字幕的语言混在一起。"
+          ],
+          [
+            "如何删除本地数据？",
+            "删除应用可移除保存在设备上的设置和收藏。“卸载 App”可能保留数据。设备或云端备份请在 Apple 设置中单独管理。"
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "隐私政策",
+        "summary": "本政策说明 Lapivelle 应用、本网站及咨询过程中如何处理信息。",
+        "sections": [
+          [
+            "scope",
+            "适用范围",
+            "本政策适用于 Facta Leopard 提供的 Lapivelle 应用、本网站及支持服务。Lapivelle 面向由成年人操作的安静晚间使用场景。"
+          ],
+          [
+            "app",
+            "应用中的信息",
+            "Lapivelle 不要求账户，不包含广告、分析 SDK、追踪 SDK 或社交功能，也不请求麦克风、相机、位置或联系人权限。应用不会要求儿童或其他用户填写个人信息。",
+            "语言、收藏、播放偏好和睡眠定时器选项保存在设备本地，不会发送到开发者运营的服务器。我们不提供云端账户，也不通过自己的服务器同步这些设置。"
+          ],
+          [
+            "content",
+            "故事与播放",
+            "应用包含的文字、插画和音频在设备上使用。应用不录制你的声音，也不把阅读或收听内容发送到 AI 服务。内容可能通过常规应用更新提供。"
+          ],
+          [
+            "support",
+            "主动联系我们时",
+            "发送支持邮件时，我们会收到你的邮件地址、消息以及你自行提供的其他信息。我们用这些信息回复请求、调查问题或处理隐私咨询。邮件服务提供商负责邮件的传递和存储。",
+            "GitHub Issue 是公开帖子，不是私密支持信箱。请勿在其中发布个人或敏感信息。隐私相关请求请通过电子邮件提出。"
+          ],
+          [
+            "website",
+            "访问本网站",
+            "本网站由 GitHub Pages 托管。GitHub 会出于安全目的记录访客的 IP 地址，具体处理方式见其隐私声明。",
+            "我们不会在网站中加入广告、访问分析、追踪 Cookie、第三方嵌入内容或远程字体。语言选择通过页面链接实现，不会保存访客画像。"
+          ],
+          [
+            "sharing",
+            "共享与外部服务",
+            "我们不出售个人信息，也不将应用偏好用于广告。App Store 分发和系统备份由 Apple 按其政策处理。GitHub 和邮件提供商依据各自的条款运营；打开外部链接会进入相应提供商的服务。"
+          ],
+          [
+            "retention",
+            "保留与选择",
+            "本地应用数据会保留到你更改设置或删除应用为止。根据 Apple 设置，设备或云端备份可能保留副本，我们不会收到这些备份。",
+            "支持邮件仅保留至处理请求及履行适用记录保存义务所需的时间。若要查询、更正或请求删除你发送的信息，请发邮件联系我们。我们无法访问仅存于你设备上的数据。托管安全日志的保留由 GitHub 管理。"
+          ],
+          [
+            "contact",
+            "联系与更新",
+            "隐私问题请联系 {email}。如果你认为儿童曾通过支持渠道发送个人信息，也可以联系我们。处理方式发生变化时，我们会更新本页及其日期。"
+          ]
+        ]
+      }
+    },
+    "zh-Hant": {
+      "nav": {
+        "home": "首頁",
+        "support": "支援",
+        "privacy": "隱私權政策"
+      },
+      "language": "語言",
+      "skip": "跳至主要內容",
+      "updated": "更新日期：2026 年 10 月 3 日",
+      "contents": "本頁內容",
+      "back": "回到頂端",
+      "emailAction": "寄送支援郵件",
+      "publicAction": "公開回報問題",
+      "providerLabel": "GitHub 隱私權聲明",
+      "appleLabel": "Apple 隱私權政策",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "睡前，\n聽一個故事。",
+        "intro": "Lapivelle 帶來適合睡前聆聽的溫柔故事。",
+        "status": "準備推出中",
+        "supportText": "查看使用說明與聯絡方式。",
+        "privacyText": "了解 App 與網站如何處理資訊。",
+        "imageAlt": "埃洛伊絲和拉皮維爾在月光花園裡，溫柔地幫助一顆小星星。"
+      },
+      "support": {
+        "title": "協助與聯絡",
+        "intro": "可以先查看 Lapivelle 的使用說明，也可以透過電子郵件聯絡我們。",
+        "contactTitle": "電子郵件聯絡",
+        "contactText": "App 使用或隱私方面的問題，請透過電子郵件聯絡我們。",
+        "publicText": "一般問題也能透過 GitHub Issues 公開回報。其他人可以看見貼文，因此涉及個人資訊或隱私的請求，請使用電子郵件。",
+        "detailsTitle": "有助於處理問題的資訊",
+        "detailsText": "請提供 App 版本、裝置型號、iOS 或 iPadOS 版本、所選語言、故事標題及問題情況。截圖為選填項目。請勿提供密碼、付款資訊或兒童個人資料。",
+        "faqTitle": "常見問題",
+        "faqs": [
+          [
+            "需要註冊帳號嗎？",
+            "不需要。Lapivelle 無須帳號或登入。收藏及偏好設定會儲存在你的裝置上。"
+          ],
+          [
+            "可以離線使用嗎？",
+            "已安裝 App 中包含的故事與音訊，可以離線閱讀或播放。開啟本網站、寄送電子郵件或下載 App 更新時，需要網路連線。"
+          ],
+          [
+            "為什麼故事無法播放？",
+            "請檢查媒體音量、音訊輸出裝置或 Bluetooth 連線，以及睡眠計時器。若顯示朗讀準備中，代表音訊尚未包含在 App 中，你可以先閱讀現有內文。若問題持續，請告訴我們所選語言和故事標題。"
+          ],
+          [
+            "如何更改語言？",
+            "在設定的「App 與故事語言」中選擇。簡體中文和繁體中文是不同選項。切換語言會停止目前播放，避免語音與字幕的語言混在一起。"
+          ],
+          [
+            "如何刪除本機資料？",
+            "刪除 App 會移除裝置上的設定與收藏。「卸載 App」可能保留資料。裝置或雲端備份請在 Apple 設定中另外管理。"
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "隱私權政策",
+        "summary": "本政策說明 Lapivelle App、本網站及諮詢過程中如何處理資訊。",
+        "sections": [
+          [
+            "scope",
+            "適用範圍",
+            "本政策適用於 Facta Leopard 提供的 Lapivelle App、本網站及支援服務。Lapivelle 是為成年人操作的安靜晚間使用情境而設計。"
+          ],
+          [
+            "app",
+            "App 中的資訊",
+            "Lapivelle 不要求帳號，不含廣告、分析 SDK、追蹤 SDK 或社交功能，也不要求麥克風、相機、位置或聯絡人權限。App 不會要求兒童或其他使用者輸入個人資料。",
+            "語言、收藏、播放偏好與睡眠計時器選項儲存在裝置本機，不會傳送到開發者營運的伺服器。我們不提供雲端帳號，也不透過自己的伺服器同步這些設定。"
+          ],
+          [
+            "content",
+            "故事與播放",
+            "App 內含的文字、插畫與音訊會在裝置上使用。App 不會錄下你的聲音，也不會將閱讀或聆聽內容傳送至 AI 服務。內容可能透過一般 App 更新提供。"
+          ],
+          [
+            "support",
+            "主動聯絡我們時",
+            "寄送支援郵件時，我們會收到你的電子郵件地址、訊息及你自行提供的其他資訊。我們用這些資訊回覆請求、調查問題或處理隱私諮詢。郵件服務提供者負責郵件傳遞與儲存。",
+            "GitHub Issue 是公開貼文，不是私人支援信箱。請勿在其中張貼個人或敏感資訊。隱私相關請求請透過電子郵件提出。"
+          ],
+          [
+            "website",
+            "瀏覽本網站",
+            "本網站由 GitHub Pages 代管。GitHub 會基於安全目的記錄訪客的 IP 位址，相關處理方式見其隱私權聲明。",
+            "我們不會在網站中加入廣告、瀏覽分析、追蹤 Cookie、第三方嵌入內容或遠端字型。語言選擇透過頁面連結運作，不會保存訪客個人檔案。"
+          ],
+          [
+            "sharing",
+            "分享與外部服務",
+            "我們不販售個人資料，也不將 App 偏好用於廣告。App Store 發佈與系統備份由 Apple 依其政策處理。GitHub 和郵件提供者依各自條款營運；開啟外部連結後，會進入對應提供者的服務。"
+          ],
+          [
+            "retention",
+            "保存與選擇",
+            "本機 App 資料會保留到你更改設定或刪除 App 為止。依 Apple 設定，裝置或雲端備份可能保存副本，我們不會收到這些備份。",
+            "支援郵件只保存至處理請求及履行適用紀錄保存義務所需的期間。如要查詢、更正或請求刪除你寄送的資訊，請以電子郵件聯絡我們。我們無法存取僅存在你裝置上的資料。代管安全紀錄的保存由 GitHub 管理。"
+          ],
+          [
+            "contact",
+            "聯絡與更新",
+            "隱私問題請聯絡 {email}。若你認為兒童曾透過支援管道傳送個人資料，也可以聯絡我們。處理方式變更時，我們會更新本頁及其日期。"
+          ]
+        ]
+      }
+    },
+    "ja": {
+      "nav": {
+        "home": "ホーム",
+        "support": "サポート",
+        "privacy": "プライバシー"
+      },
+      "language": "言語",
+      "skip": "本文へ移動",
+      "updated": "2026年10月3日更新",
+      "contents": "このページの内容",
+      "back": "ページの先頭へ",
+      "emailAction": "メールで問い合わせる",
+      "publicAction": "不具合を公開で報告",
+      "providerLabel": "GitHubのプライバシー声明",
+      "appleLabel": "Appleのプライバシーポリシー",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "おやすみ前に、\nひとつのお話。",
+        "intro": "Lapivelle は、おやすみ前に聴けるやさしい物語のアプリです。",
+        "status": "公開準備中",
+        "supportText": "使い方の案内とお問い合わせ先です。",
+        "privacyText": "アプリとウェブサイトでの情報の取り扱いをご案内します。",
+        "imageAlt": "月明かりの庭で、エロイーズとラピヴェルが小さな星をやさしく助けています。"
+      },
+      "support": {
+        "title": "ヘルプ・お問い合わせ",
+        "intro": "Lapivelle の使い方をご確認いただけます。解決しない場合はメールでご連絡ください。",
+        "contactTitle": "メールでのお問い合わせ",
+        "contactText": "アプリの使い方やプライバシーについてのご質問は、メールでお送りください。",
+        "publicText": "一般的な不具合は GitHub Issues でも公開報告できます。他の人も投稿を閲覧できるため、個人的な内容やプライバシーに関するご相談にはメールをご利用ください。",
+        "detailsTitle": "お知らせいただきたい情報",
+        "detailsText": "アプリのバージョン、端末の機種、iOSまたはiPadOSのバージョン、選択した言語、お話のタイトルと問題の内容をお知らせください。スクリーンショットは任意です。パスワード、支払い情報、お子さまの個人情報は含めないでください。",
+        "faqTitle": "よくあるご質問",
+        "faqs": [
+          [
+            "アカウントは必要ですか？",
+            "いいえ。Lapivelle にアカウントやログインはありません。お気に入りと設定は端末内に保存されます。"
+          ],
+          [
+            "オフラインで使えますか？",
+            "インストール済みのアプリに含まれるお話と音声は、オフラインで読んだり聴いたりできます。このサイトの閲覧、メール送信、アプリの更新にはインターネット接続が必要です。"
+          ],
+          [
+            "お話を再生できません。",
+            "メディアの音量、音声の出力先やBluetooth接続、スリープタイマーをご確認ください。朗読が準備中と表示される場合、音声はまだ含まれていませんが、用意された本文を読むことができます。解決しない場合は、言語とお話のタイトルをお知らせください。"
+          ],
+          [
+            "言語はどこで変更できますか？",
+            "設定の「アプリとお話の言語」で変更できます。中国語の簡体字と繁体字は別々の選択肢です。音声と字幕の言語が混ざらないよう、言語の変更時には再生を停止します。"
+          ],
+          [
+            "端末内のデータを削除するには？",
+            "アプリを削除すると、端末内の設定とお気に入りが削除されます。「Appを取り除く」ではデータが残る場合があります。端末やクラウドのバックアップは、Appleの設定から別途管理してください。"
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "プライバシーポリシー",
+        "summary": "Lapivelle アプリ、本サイト、お問い合わせの際の情報の取り扱いを説明します。",
+        "sections": [
+          [
+            "scope",
+            "この方針の対象",
+            "この方針は、Facta Leopardが提供するLapivelleアプリ、本サイトおよびサポートに適用されます。Lapivelleは、大人が操作する静かな夜のひとときを想定したアプリです。"
+          ],
+          [
+            "app",
+            "アプリ内の情報",
+            "Lapivelleはアカウントを要求せず、広告、分析SDK、追跡SDK、交流機能を含みません。マイク、カメラ、位置情報、連絡先へのアクセスも要求しません。お子さまを含め、利用者に個人情報の入力を求めません。",
+            "言語、お気に入り、再生やスリープタイマーの設定は端末内に保存されます。開発者が運営するサーバーへは送信しません。クラウドアカウントや、私たちのサーバーを使った設定の同期も提供していません。"
+          ],
+          [
+            "content",
+            "お話と再生",
+            "収録された文章、イラスト、音声は端末内で使用されます。声を録音したり、読んだ内容や聴いた内容をAIサービスに送ったりする機能はありません。コンテンツは通常のアプリ更新で提供される場合があります。"
+          ],
+          [
+            "support",
+            "お問い合わせの情報",
+            "メールでお問い合わせいただくと、送信元のメールアドレス、メッセージと任意で添付された情報を受け取ります。回答、問題の調査、プライバシーに関する依頼への対応に使用します。メールサービスの提供者が配送と保存を処理します。",
+            "GitHubのIssueは公開投稿であり、非公開の問い合わせ窓口ではありません。個人情報や機微な情報を投稿しないでください。プライバシーに関する依頼はメールでお送りください。"
+          ],
+          [
+            "website",
+            "本サイトへのアクセス",
+            "本サイトはGitHub Pagesでホストされています。GitHubはセキュリティのため、訪問者のIPアドレスを記録します。詳細は同社のプライバシー声明をご覧ください。",
+            "本サイトには、広告、アクセス解析、追跡Cookie、第三者の埋め込みコンテンツ、外部フォントを追加していません。言語はページのリンクで切り替え、訪問者プロフィールは保存しません。"
+          ],
+          [
+            "sharing",
+            "共有と外部サービス",
+            "個人情報を販売したり、アプリの設定を広告に利用したりしません。App Storeでの配布とシステムのバックアップは、Apple自身の方針に従って処理されます。GitHubやメール提供者は各自の規約でサービスを運営しています。外部リンクを開くと、その提供者のサービスに移動します。"
+          ],
+          [
+            "retention",
+            "保存期間と利用者の選択",
+            "端末内のアプリデータは、設定の変更またはアプリの削除まで保存されます。Appleの設定によって、端末やクラウドのバックアップにコピーが残る場合がありますが、私たちはそのバックアップを受け取りません。",
+            "お問い合わせメールは、対応と適用される記録保存義務に必要な期間のみ保管します。送信した情報の確認、訂正、削除を希望する場合はメールでご連絡ください。端末内にしかないデータにはアクセスできません。ホスティングのセキュリティ記録の保存はGitHubが管理します。"
+          ],
+          [
+            "contact",
+            "ご質問と更新",
+            "プライバシーに関するご質問は{email}へお送りください。お子さまがサポート窓口へ個人情報を送ったと思われる場合もご連絡いただけます。取り扱いを変更する際は、このページと更新日を改めます。"
+          ]
+        ]
+      }
+    },
+    "de": {
+      "nav": {
+        "home": "Start",
+        "support": "Hilfe",
+        "privacy": "Datenschutz"
+      },
+      "language": "Sprache",
+      "skip": "Zum Inhalt",
+      "updated": "Aktualisiert am 3. Oktober 2026",
+      "contents": "Auf dieser Seite",
+      "back": "Nach oben",
+      "emailAction": "Eine E-Mail schreiben",
+      "publicAction": "Fehler öffentlich melden",
+      "providerLabel": "Datenschutzerklärung von GitHub",
+      "appleLabel": "Datenschutzerklärung von Apple",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "Geschichten\nvor dem Einschlafen.",
+        "intro": "Lapivelle bietet ruhige Geschichten zum Anhören vor dem Schlafengehen.",
+        "status": "Veröffentlichung in Vorbereitung",
+        "supportText": "Antworten zur App und unsere Kontaktmöglichkeiten.",
+        "privacyText": "Wie die App und diese Website mit Informationen umgehen.",
+        "imageAlt": "Éloïse und Lapivelle helfen einem kleinen Stern in einem Garten im Mondlicht."
+      },
+      "support": {
+        "title": "Hilfe und Kontakt",
+        "intro": "Hier findest du Antworten zu Lapivelle. Bei weiteren Fragen kannst du uns schreiben.",
+        "contactTitle": "Kontakt per E-Mail",
+        "contactText": "Fragen zur App oder zum Datenschutz kannst du uns per E-Mail senden.",
+        "publicText": "Allgemeine Fehler können auch öffentlich über GitHub Issues gemeldet werden. Andere können die Beiträge lesen. Nutze für persönliche Anliegen und Datenschutzanfragen bitte E-Mail.",
+        "detailsTitle": "Hilfreiche Angaben",
+        "detailsText": "Nenne die App-Version, das Gerätemodell, die iOS- oder iPadOS-Version, die gewählte Sprache, den Titel der Geschichte und das aufgetretene Problem. Bildschirmfotos sind freiwillig. Bitte keine Passwörter, Zahlungsdaten oder personenbezogenen Angaben über Kinder senden.",
+        "faqTitle": "Häufige Fragen",
+        "faqs": [
+          [
+            "Brauche ich ein Konto?",
+            "Nein. Lapivelle benötigt weder ein Konto noch eine Anmeldung. Favoriten und Einstellungen werden lokal auf deinem Gerät gespeichert."
+          ],
+          [
+            "Funktioniert die App offline?",
+            "Geschichten und Audiodateien, die in der installierten App enthalten sind, lassen sich offline lesen oder abspielen. Für diese Website, E-Mails und App-Updates ist eine Internetverbindung nötig."
+          ],
+          [
+            "Warum spielt eine Geschichte nicht ab?",
+            "Prüfe Medienlautstärke, Audioausgabe oder Bluetooth-Verbindung und den Schlaftimer. Steht die Hörfassung noch in Vorbereitung, ist die Audiodatei noch nicht enthalten; den vorhandenen Text kannst du lesen. Falls das Problem bleibt, nenne uns Sprache und Titel."
+          ],
+          [
+            "Wie ändere ich die Sprache?",
+            "Öffne Einstellungen und dann Sprache für App und Geschichten. Vereinfachtes und traditionelles Chinesisch sind getrennte Optionen. Ein Sprachwechsel stoppt die Wiedergabe, damit Stimme und Untertitel nicht vermischt werden."
+          ],
+          [
+            "Wie lösche ich lokale Daten?",
+            "Wenn du die App löschst, werden ihre lokalen Einstellungen und Favoriten entfernt. Beim Auslagern der App können Daten erhalten bleiben. Geräte- oder Cloud-Backups verwaltest du getrennt in den Apple-Einstellungen."
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "Datenschutzerklärung",
+        "summary": "So werden Informationen in der Lapivelle-App, auf dieser Website und bei Kontaktanfragen verarbeitet.",
+        "sections": [
+          [
+            "scope",
+            "Geltungsbereich",
+            "Diese Erklärung gilt für die Lapivelle-App, diese Website und den Support von Facta Leopard. Lapivelle ist für die Bedienung durch Erwachsene während ruhiger Abendrituale gedacht."
+          ],
+          [
+            "app",
+            "Informationen in der App",
+            "Lapivelle verlangt kein Konto und enthält keine Werbung, Analyse-SDKs, Tracking-SDKs oder sozialen Funktionen. Die App fordert keinen Zugriff auf Mikrofon, Kamera, Standort oder Kontakte. Sie bittet weder Kinder noch andere Nutzer um personenbezogene Angaben.",
+            "Sprache, Favoriten, Wiedergabe- und Timereinstellungen bleiben lokal auf dem Gerät. Sie werden nicht an einen vom Entwickler betriebenen Server gesendet. Es gibt kein Cloud-Konto und keine Synchronisierung dieser Einstellungen über unsere Server."
+          ],
+          [
+            "content",
+            "Geschichten und Wiedergabe",
+            "Enthaltene Texte, Bilder und Audiodateien werden auf dem Gerät verwendet. Die App nimmt deine Stimme nicht auf und sendet gelesene oder gehörte Inhalte nicht an einen KI-Dienst. Inhalte können über normale App-Updates bereitgestellt werden."
+          ],
+          [
+            "support",
+            "Wenn du uns kontaktierst",
+            "Bei einer Support-E-Mail erhalten wir deine E-Mail-Adresse, die Nachricht und freiwillig beigefügte Angaben. Wir verwenden sie zur Beantwortung, Fehleruntersuchung oder Bearbeitung einer Datenschutzanfrage. E-Mail-Anbieter übernehmen Übermittlung und Speicherung.",
+            "Ein GitHub-Issue ist öffentlich und kein privates Support-Postfach. Veröffentliche dort keine persönlichen oder sensiblen Informationen. Nutze E-Mail für Datenschutzanfragen."
+          ],
+          [
+            "website",
+            "Besuch der Website",
+            "Diese Website wird auf GitHub Pages gehostet. GitHub protokolliert IP-Adressen von Besuchern zu Sicherheitszwecken. Die Datenschutzerklärung von GitHub erläutert diese Verarbeitung.",
+            "Wir fügen dieser Website keine Werbung, Besuchsanalyse, Tracking-Cookies, fremden Einbettungen oder externen Schriftarten hinzu. Die Sprachwahl erfolgt über Seitenlinks; wir speichern kein Besucherprofil."
+          ],
+          [
+            "sharing",
+            "Weitergabe und externe Dienste",
+            "Wir verkaufen keine personenbezogenen Daten und verwenden App-Einstellungen nicht für Werbung. Apple betreibt App-Store-Vertrieb und Systembackups nach eigenen Richtlinien. Für GitHub und E-Mail-Anbieter gelten deren jeweilige Bedingungen. Ein externer Link führt zum betreffenden Anbieter."
+          ],
+          [
+            "retention",
+            "Speicherung und deine Möglichkeiten",
+            "Lokale App-Daten bleiben erhalten, bis du sie änderst oder die App löschst. Geräte- oder Cloud-Backups können nach deinen Apple-Einstellungen Kopien enthalten; wir erhalten diese Backups nicht.",
+            "Support-Korrespondenz bewahren wir nur so lange auf, wie es zur Bearbeitung und für geltende Aufbewahrungspflichten nötig ist. Schreibe uns, wenn du Auskunft, Berichtigung oder Löschung der gesendeten Angaben möchtest. Auf Daten, die nur auf deinem Gerät liegen, haben wir keinen Zugriff. GitHub bestimmt die Aufbewahrung seiner Hosting-Sicherheitsprotokolle."
+          ],
+          [
+            "contact",
+            "Fragen und Änderungen",
+            "Datenschutzfragen kannst du an {email} richten, auch wenn du glaubst, dass ein Kind über einen Supportkanal persönliche Angaben gesendet hat. Wenn sich unsere Praxis ändert, aktualisieren wir diese Seite und ihr Datum."
+          ]
+        ]
+      }
+    },
+    "es": {
+      "nav": {
+        "home": "Inicio",
+        "support": "Soporte",
+        "privacy": "Privacidad"
+      },
+      "language": "Idioma",
+      "skip": "Ir al contenido",
+      "updated": "Actualizado el 3 de octubre de 2026",
+      "contents": "En esta página",
+      "back": "Volver arriba",
+      "emailAction": "Escribir al soporte",
+      "publicAction": "Informar de un error públicamente",
+      "providerLabel": "Declaración de privacidad de GitHub",
+      "appleLabel": "Política de privacidad de Apple",
+      "home": {
+        "eyebrow": "Lapivelle",
+        "title": "Un cuento\nantes de dormir.",
+        "intro": "Lapivelle ofrece cuentos tranquilos para escuchar antes de dormir.",
+        "status": "Lanzamiento en preparación",
+        "supportText": "Ayuda sobre la app y formas de contacto.",
+        "privacyText": "Cómo se trata la información en la app y en este sitio.",
+        "imageAlt": "Éloïse y Lapivelle ayudan con cariño a una pequeña estrella en un jardín iluminado por la luna."
+      },
+      "support": {
+        "title": "Ayuda y contacto",
+        "intro": "Consulta las respuestas sobre Lapivelle o escríbenos por correo.",
+        "contactTitle": "Contacto por correo",
+        "contactText": "Para consultas sobre la app o tu privacidad, envíanos un correo.",
+        "publicText": "GitHub Issues permite informar de errores públicamente. Otras personas pueden leer las publicaciones. Usa el correo para solicitudes personales o relacionadas con la privacidad.",
+        "detailsTitle": "Información que nos ayuda",
+        "detailsText": "Indica la versión de la app, el modelo del dispositivo, la versión de iOS o iPadOS, el idioma seleccionado, el título del cuento y lo ocurrido. Las capturas son opcionales. No incluyas contraseñas, datos de pago ni información personal de menores.",
+        "faqTitle": "Preguntas frecuentes",
+        "faqs": [
+          [
+            "¿Necesito una cuenta?",
+            "No. Lapivelle no requiere cuenta ni inicio de sesión. Tus favoritos y preferencias se guardan localmente en el dispositivo."
+          ],
+          [
+            "¿Puedo usarla sin conexión?",
+            "Los cuentos y archivos de audio incluidos en la app instalada se pueden leer o reproducir sin conexión. Para visitar este sitio, enviar correo o descargar una actualización necesitas internet."
+          ],
+          [
+            "¿Por qué no se reproduce un cuento?",
+            "Comprueba el volumen multimedia, la salida de audio o la conexión Bluetooth y el temporizador de sueño. Si la narración figura como en preparación, el audio aún no está incluido; puedes leer el texto disponible. Si el problema continúa, dinos el idioma y el título."
+          ],
+          [
+            "¿Cómo cambio el idioma?",
+            "Abre Ajustes y luego Idioma de la app y de los cuentos. El chino simplificado y el tradicional son opciones distintas. Cambiar de idioma detiene la reproducción para evitar que se mezclen el audio y los subtítulos."
+          ],
+          [
+            "¿Cómo elimino los datos locales?",
+            "Eliminar la app borra sus preferencias y favoritos locales. Desinstalarla conservando sus datos puede mantenerlos. Gestiona las copias del dispositivo o de la nube por separado en los ajustes de Apple."
+          ]
+        ]
+      },
+      "privacy": {
+        "title": "Política de privacidad",
+        "summary": "Cómo se trata la información en la app Lapivelle, en este sitio y cuando nos contactas.",
+        "sections": [
+          [
+            "scope",
+            "Ámbito de esta política",
+            "Esta política se aplica a la app Lapivelle, este sitio y el soporte ofrecidos por Facta Leopard. Lapivelle está pensada para que personas adultas la manejen durante rutinas nocturnas tranquilas."
+          ],
+          [
+            "app",
+            "Información en la app",
+            "Lapivelle no exige una cuenta ni incluye publicidad, SDK de análisis, SDK de seguimiento o funciones sociales. No solicita acceso al micrófono, la cámara, la ubicación ni los contactos. No pide información personal a menores ni a otros usuarios.",
+            "El idioma, los favoritos y las preferencias de reproducción y del temporizador se guardan en el dispositivo. No se envían a un servidor del desarrollador. No ofrecemos una cuenta en la nube ni sincronizamos estas preferencias mediante nuestros servidores."
+          ],
+          [
+            "content",
+            "Cuentos y reproducción",
+            "Los textos, ilustraciones y audios incluidos se utilizan en el dispositivo. La app no graba tu voz ni envía lo que lees o escuchas a un servicio de IA. El contenido puede llegar mediante las actualizaciones habituales de la app."
+          ],
+          [
+            "support",
+            "Cuando nos contactas",
+            "Al escribir al soporte recibimos tu dirección de correo, tu mensaje y la información que decidas adjuntar. La usamos para responder, investigar un problema o atender una consulta de privacidad. Los proveedores de correo gestionan el envío y el almacenamiento.",
+            "Un issue de GitHub es una publicación pública, no un buzón privado. No publiques allí información personal o sensible. Utiliza el correo para las solicitudes de privacidad."
+          ],
+          [
+            "website",
+            "Visitas al sitio",
+            "Este sitio se aloja en GitHub Pages. GitHub registra las direcciones IP de los visitantes por motivos de seguridad. Su declaración de privacidad explica ese tratamiento.",
+            "No añadimos publicidad, análisis de visitas, cookies de seguimiento, contenido externo integrado ni fuentes remotas. El idioma se elige mediante enlaces entre páginas; no guardamos perfiles de visitantes."
+          ],
+          [
+            "sharing",
+            "Cesión y servicios externos",
+            "No vendemos información personal ni usamos las preferencias de la app para publicidad. Apple gestiona la distribución en el App Store y las copias del sistema según sus propias políticas. GitHub y los proveedores de correo operan bajo sus propias condiciones. Los enlaces externos conducen al servicio del proveedor correspondiente."
+          ],
+          [
+            "retention",
+            "Conservación y opciones",
+            "Los datos locales permanecen hasta que los cambies o elimines la app. Las copias del dispositivo o de la nube pueden conservarlos según tus ajustes de Apple; no recibimos esas copias.",
+            "Conservamos la correspondencia de soporte solo durante el tiempo necesario para atender la solicitud y cumplir las obligaciones de conservación aplicables. Escríbenos para consultar, corregir o solicitar la eliminación de los datos enviados. No podemos acceder a información que solo exista en tu dispositivo. GitHub controla la conservación de sus registros de seguridad del alojamiento."
+          ],
+          [
+            "contact",
+            "Consultas y cambios",
+            "Envía tus consultas de privacidad a {email}, también si crees que un menor ha enviado información personal mediante un canal de soporte. Cuando cambien nuestras prácticas, actualizaremos esta página y su fecha."
+          ]
+        ]
+      }
+    }
+  }
+}
